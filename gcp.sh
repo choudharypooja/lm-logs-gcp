@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOPIC=export-logs-to-logicmonitor
+TOPIC=export-logs-to-logicmonitor-test
 NAME=lm-logs-forwarder-test
 
 function deploy_lm-logs {
