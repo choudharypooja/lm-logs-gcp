@@ -17,7 +17,7 @@ gcloud config set project [PROJECT_ID]
 
 Run the following to install the integration:
 ``` console
-source <(curl -s https://raw.githubusercontent.com/logicmonitor/lm-logs-gcp/master/script/gcp.sh) && deploy_lm-logs
+source <(curl -s https://raw.githubusercontent.com/choudharypooja/lm-logs-gcp/main/gcp.sh) && deploy_lm-logs
 ```
 
 Installing the integration creates these resources:
@@ -38,7 +38,7 @@ export LM_COMPANY_NAME="${LM_COMPANY_NAME}"
 export LM_ACCESS_ID="${LM_ACCESS_ID}"
 export LM_ACCESS_KEY="${LM_ACCESS_KEY}"
 
-source <(curl -s https://raw.githubusercontent.com/logicmonitor/lm-logs-gcp/master/script/vm.sh)
+source <(curl -s https://raw.githubusercontent.com/choudharypooja/lm-logs-gcp/main/vm.sh)
 ```
 
 ## Export logs from Logging to Pub Sub
