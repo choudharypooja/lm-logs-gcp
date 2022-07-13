@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TOPIC=export-logs-to-logicmonitor
-NAME=lm-logs-forwarder
+NAME=lm-logs-forwarder-test
 
 function deploy_lm-logs {
 
@@ -13,7 +13,7 @@ function deploy_lm-logs {
 	
 	echo "Creating VM"
 	gcloud compute instances create ${NAME} \
-  --image debian-10-buster-v20201014 \
+  --image debian-11-bullseye-v20220621 \
   --image-project debian-cloud \
 	--machine-type=e2-micro
 
